@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882AD7461BCB9E0300BE2E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882AD7451BCB9E0300BE2E93 /* AppDelegate.swift */; };
+		882AD7481BCB9E0300BE2E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882AD7471BCB9E0300BE2E93 /* ViewController.swift */; };
+		882AD74B1BCB9E0300BE2E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882AD7491BCB9E0300BE2E93 /* Main.storyboard */; };
+		882AD74D1BCB9E0300BE2E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882AD74C1BCB9E0300BE2E93 /* Assets.xcassets */; };
+		882AD7501BCB9E0300BE2E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882AD74E1BCB9E0300BE2E93 /* LaunchScreen.storyboard */; };
+		882AD7581BCB9E4700BE2E93 /* GumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882AD7571BCB9E4700BE2E93 /* GumView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		882AD7421BCB9E0300BE2E93 /* GumView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GumView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882AD7451BCB9E0300BE2E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		882AD7471BCB9E0300BE2E93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		882AD74A1BCB9E0300BE2E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882AD74C1BCB9E0300BE2E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882AD74F1BCB9E0300BE2E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882AD7511BCB9E0300BE2E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882AD7571BCB9E4700BE2E93 /* GumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GumView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882AD73F1BCB9E0300BE2E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882AD7391BCB9E0300BE2E93 = {
+			isa = PBXGroup;
+			children = (
+				882AD7441BCB9E0300BE2E93 /* GumView */,
+				882AD7431BCB9E0300BE2E93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882AD7431BCB9E0300BE2E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882AD7421BCB9E0300BE2E93 /* GumView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882AD7441BCB9E0300BE2E93 /* GumView */ = {
+			isa = PBXGroup;
+			children = (
+				882AD7451BCB9E0300BE2E93 /* AppDelegate.swift */,
+				882AD7471BCB9E0300BE2E93 /* ViewController.swift */,
+				882AD7491BCB9E0300BE2E93 /* Main.storyboard */,
+				882AD74C1BCB9E0300BE2E93 /* Assets.xcassets */,
+				882AD74E1BCB9E0300BE2E93 /* LaunchScreen.storyboard */,
+				882AD7511BCB9E0300BE2E93 /* Info.plist */,
+				882AD7571BCB9E4700BE2E93 /* GumView.swift */,
+			);
+			path = GumView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882AD7411BCB9E0300BE2E93 /* GumView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882AD7541BCB9E0300BE2E93 /* Build configuration list for PBXNativeTarget "GumView" */;
+			buildPhases = (
+				882AD73E1BCB9E0300BE2E93 /* Sources */,
+				882AD73F1BCB9E0300BE2E93 /* Frameworks */,
+				882AD7401BCB9E0300BE2E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GumView;
+			productName = GumView;
+			productReference = 882AD7421BCB9E0300BE2E93 /* GumView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882AD73A1BCB9E0300BE2E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = blk;
+				TargetAttributes = {
+					882AD7411BCB9E0300BE2E93 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8A7X4PEZU7;
+					};
+				};
+			};
+			buildConfigurationList = 882AD73D1BCB9E0300BE2E93 /* Build configuration list for PBXProject "GumView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882AD7391BCB9E0300BE2E93;
+			productRefGroup = 882AD7431BCB9E0300BE2E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882AD7411BCB9E0300BE2E93 /* GumView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882AD7401BCB9E0300BE2E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882AD7501BCB9E0300BE2E93 /* LaunchScreen.storyboard in Resources */,
+				882AD74D1BCB9E0300BE2E93 /* Assets.xcassets in Resources */,
+				882AD74B1BCB9E0300BE2E93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882AD73E1BCB9E0300BE2E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882AD7481BCB9E0300BE2E93 /* ViewController.swift in Sources */,
+				882AD7581BCB9E4700BE2E93 /* GumView.swift in Sources */,
+				882AD7461BCB9E0300BE2E93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		882AD7491BCB9E0300BE2E93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882AD74A1BCB9E0300BE2E93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882AD74E1BCB9E0300BE2E93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882AD74F1BCB9E0300BE2E93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882AD7521BCB9E0300BE2E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		882AD7531BCB9E0300BE2E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882AD7551BCB9E0300BE2E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GumView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blk.GumView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		882AD7561BCB9E0300BE2E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GumView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blk.GumView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882AD73D1BCB9E0300BE2E93 /* Build configuration list for PBXProject "GumView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882AD7521BCB9E0300BE2E93 /* Debug */,
+				882AD7531BCB9E0300BE2E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882AD7541BCB9E0300BE2E93 /* Build configuration list for PBXNativeTarget "GumView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882AD7551BCB9E0300BE2E93 /* Debug */,
+				882AD7561BCB9E0300BE2E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882AD73A1BCB9E0300BE2E93 /* Project object */;
+}
